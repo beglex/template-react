@@ -1,0 +1,36 @@
+:root {
+  --color-dark: #000000;
+  --color-light: #ffffff;
+  --color-primary: #fe4365;
+  --color-primary-dark: #6e2035;
+  --color-primary-light: #fc9d9a;
+  --color-secondary: #83af9b;
+  --color-secondary-dark: #337d4b;
+  --color-secondary-light: #c8c8a9;
+  --color-tertiary: #f9cdad;
+  --color-tertiary-dark: #826456;
+  --color-tertiary-light: #fddfc9;
+  --font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  background: var(--color-tertiary-light);
+  min-width: 500px;
+  padding: 0 1rem;
+  overflow-x: hidden;
+}
+
+body * {
+  font-family: var(--font-family);
+}
+
+body input {
+  border: none;
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 0;
+}
+
+body button {
+  font-size: 1.1rem;
+}

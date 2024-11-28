@@ -1,0 +1,34 @@
+.input-task {
+  border: 1px solid var(--color-primary-dark);
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+}
+
+.input-task input {
+  background: var(--color-secondary-dark);
+  color: var(--color-tertiary-light);
+  border: none;
+  padding-left: 0.5rem;
+  outline: none;
+}
+
+.input-task input::placeholder {
+  color: var(--color-tertiary-light);
+}
+
+.input-task button {
+  background: var(--color-primary-light);
+  border: none;
+  cursor: pointer;
+  height: 3rem;
+}
+
+.input-task button:disabled {
+  opacity: 0.7;
+}
+
+.input-task button:hover {
+  background: var(--color-primary-dark);
+  color: var(--color-light);
+}
