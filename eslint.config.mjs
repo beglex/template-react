@@ -2,6 +2,7 @@ import antfu from '@antfu/eslint-config';
 import 'eslint-plugin-only-warn';
 
 export default antfu({
+    markdown: false,
     react: true,
     typescript: true,
     vue: false,

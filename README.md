@@ -1,10 +1,11 @@
-# React + TypeScript + Vite + ESLint Template
+# React Template
 
-+ [React + TypeScript + Vite + ESLint Template](#react--typescript--vite--eslint-template)
++ [React Template](#react-template)
   + [Usage](#usage)
     + [Installation](#installation)
     + [Development](#development)
     + [Production](#production)
+    + [Testing](#testing)
   + [Structure](#structure)
 
 
@@ -62,6 +63,17 @@
 
 
 
+### Testing
+
+Start tests:
+```sh
+  npm test
+```
+
+
+
+
+
 
 ## Structure
 
@@ -69,22 +81,28 @@
   ./
   ├── .vscode/
   │   └── launch.sample.json
-  ├── dist/
   ├── src/
   │   ├── components/
   │   ├── constants/
   │   ├── containers/
   │   ├── pages/
+  │   ├── providers/
+  │   ├── services/
+  │   ├── stores/
   │   ├── types/
   │   ├── utils/
-  │   ├── App.css
   │   ├── App.tsx
   │   └── main.tsx
+  ├── test/
+  │   ├── integration/
+  │   ├── unit/
+  │   └── setup.ts
   ├── .env.sample
-  ├── .eslintrc.cjs
-  ├── .gitignore
+  ├── LICENSE
   ├── README.md
+  ├── eslint.config.mjs
   ├── index.html
+  ├── jest.config.mjs
   ├── package.json
   ├── tsconfig.json
   └── vite.config.ts
